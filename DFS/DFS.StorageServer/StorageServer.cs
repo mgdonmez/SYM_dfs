@@ -3,8 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Net.Sockets;
+using System.Net;
 
-namespace DFS
+namespace DFS.StorageServer
 {
     public class StorageServer
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA88DC1C-A061-4A5C-A676-674EC45F9A07}</ProjectGuid>
+    <ProjectGuid>{50B444FF-9E91-49C2-8A6F-E2B1E97967C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DFS</RootNamespace>
-    <AssemblyName>DFS</AssemblyName>
+    <RootNamespace>DFS.NamingServer</RootNamespace>
+    <AssemblyName>DFS.NamingServer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

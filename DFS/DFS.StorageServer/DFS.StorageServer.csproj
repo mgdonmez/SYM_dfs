@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA88DC1C-A061-4A5C-A676-674EC45F9A07}</ProjectGuid>
+    <ProjectGuid>{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DFS</RootNamespace>
-    <AssemblyName>DFS</AssemblyName>
+    <RootNamespace>DFS.StorageServer</RootNamespace>
+    <AssemblyName>DFS.StorageServer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StorageServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

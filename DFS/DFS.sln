@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS\DFS.csproj", "{AA88DC1C-A061-4A5C-A676-674EC45F9A07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS.StorageServer", "DFS.StorageServer\DFS.StorageServer.csproj", "{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS.Client", "DFS.Client\DFS.Client.csproj", "{48A077F8-41EC-48BC-987A-63EF965D61E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AA88DC1C-A061-4A5C-A676-674EC45F9A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA88DC1C-A061-4A5C-A676-674EC45F9A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA88DC1C-A061-4A5C-A676-674EC45F9A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B10F3E3-565E-4DCB-BFD9-3E6B13940CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A077F8-41EC-48BC-987A-63EF965D61E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A077F8-41EC-48BC-987A-63EF965D61E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A077F8-41EC-48BC-987A-63EF965D61E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A077F8-41EC-48BC-987A-63EF965D61E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
