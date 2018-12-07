@@ -18,18 +18,19 @@ namespace DFS.Client
                 Console.WriteLine("Connecting..");
                 Tcpclient.Connect("127.0.0.1", 8000);
                 Console.WriteLine("Connected");
-                Console.WriteLine("Enter the String you want to send ");
+                Console.WriteLine("Enter the command you want to send.");
+                Console.WriteLine("LST: List files in target directory");
                 string str = Console.ReadLine();
                 Stream stm = Tcpclient.GetStream();
                 ASCIIEncoding ascnd = new ASCIIEncoding();
                 byte[] ba = ascnd.GetBytes(str);
-                Console.WriteLine("Sending..");
+                Console.WriteLine("Sending command.");
 
                 //send message
 
                 stm.Write(ba, 0, ba.Length);
-                byte[] bb = new byte[100];
-                int k = stm.Read(bb, 0, 100);
+                byte[] bb = new byte[1000];
+                int k = stm.Read(bb, 0, 1000);
                 for (int i = 0; i < k; i++)
                 {
                     Console.Write(Convert.ToChar(bb[i]));
